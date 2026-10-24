@@ -1,0 +1,40 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment and credentials (NEVER commit live secrets)
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*keys*.txt
+
+# Authentication & Session cookies
+auth_state.json
+
+# Local databases and runtime logs
+scraper.log
+scraper_cache.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Output & Input Data (keeps directory structure while excluding sensitive lead data)
+OutputData/*
+!OutputData/.gitkeep
+InputDate/*
+!InputDate/sample_leads.csv
+!InputDate/.gitkeep
+
+# Operating system / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

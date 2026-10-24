@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+instagrapi
+pandas
+openpyxl
+tqdm
+phonenumbers
+emoji
+python-dotenv
+pytest
